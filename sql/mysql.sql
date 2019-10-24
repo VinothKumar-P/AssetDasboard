@@ -2,7 +2,8 @@ DROP TABLE IF EXISTS `sivalabs`.`contacts`;
 CREATE TABLE  `sivalabs`.`contacts` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(45) NOT NULL,
-  `address` varchar(45) DEFAULT NULL,
+  `Location` varchar(45) DEFAULT NULL,
+  `city` varchar(45) DEFAULT NULL,
   `gender` char(1) DEFAULT 'M',
   `dob` datetime DEFAULT NULL,
   `email` varchar(45) DEFAULT NULL,
